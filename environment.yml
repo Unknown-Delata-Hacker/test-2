@@ -1,0 +1,17 @@
+name: my_environment_name  # Replace with your desired environment name
+channels:
+  - defaults
+  - conda-forge  # Adding conda-forge channel for some packages
+
+dependencies:
+  - python=3.9  # Replace with your desired Python version
+
+  # Libraries used in your code
+  - streamlit=0.87.0
+  - opencv=4.5.3
+  - numpy=1.21.2
+  - face-recognition=1.3.0
+  - openpyxl=3.0.9
+  - schedule=1.1.0
+
+  # You may need additional packages depending on your project's requirements
